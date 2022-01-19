@@ -1,0 +1,45 @@
+{
+  "_from": "consul_npm@^0.1.0",
+  "_id": "consul_npm@0.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-49JsMdiGbQiXz1sIsB/TMiGxJVk+UtM3/p6XSdMSnVGKx5imyu6h/7cYKfSUXmGSHuSrioz4nA2RI3A6kuaEiA==",
+  "_location": "/consul_npm",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "consul_npm@^0.1.0",
+    "name": "consul_npm",
+    "escapedName": "consul_npm",
+    "rawSpec": "^0.1.0",
+    "saveSpec": null,
+    "fetchSpec": "^0.1.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "http://gitlab:1234/consul_npm/-/consul_npm-0.1.0.tgz",
+  "_shasum": "7aaf4e1c346dcacaaa26ec9a88f61d2d9c3cc800",
+  "_spec": "consul_npm@^0.1.0",
+  "_where": "/Users/kkukharev/Projects/lolopi",
+  "author": {
+    "name": "LNA"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "работа с Consul",
+  "devDependencies": {
+    "@types/node": "^14.6.4",
+    "eslint": "^7.8.1"
+  },
+  "license": "ISC",
+  "main": "consul.js",
+  "name": "consul_npm",
+  "scripts": {
+    "build": "tsc -b",
+    "start": "tsc -b && node consul.js",
+    "test": "echo \"Testing\""
+  },
+  "version": "0.1.0"
+}
